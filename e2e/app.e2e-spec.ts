@@ -9,6 +9,6 @@ describe('webcat-black App', () => {
 
   it('should display message saying app works', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('app works!');
+    expect<any>(page.getParagraphText()).toEqual('header works!');
   });
 });
