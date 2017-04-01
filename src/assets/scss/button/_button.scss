@@ -47,3 +47,11 @@
     text-shadow: 0 2px 2px #337a9e;
   }
 }
+.nav-my-contacts {
+  span {
+    background: url('../resources/icons/contacts_storythat.png');
+    &:hover {
+      background: url('../resources/icons/contacts_storythat_hover.png');
+    }
+  }
+}
