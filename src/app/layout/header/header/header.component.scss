@@ -29,6 +29,22 @@ nav.navbar {
           display: inline-block;
         }
       }
+      .nav-upload-gallery {
+        background: none;
+        font-size: 20px;
+        border: none;
+        padding: 0;
+        width: 55px;
+        height: 55px;
+        line-height: 0;
+        vertical-align: middle;
+        &>span {
+          width: 35px;
+          height: 35px;
+          display: inline-block;
+          margin-top: 3px;
+        }
+      }
     }
   }
 }

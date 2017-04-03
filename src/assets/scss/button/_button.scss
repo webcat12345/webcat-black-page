@@ -55,3 +55,11 @@
     }
   }
 }
+.nav-upload-gallery {
+  span {
+    background: url('../resources/icons/upload.png');
+    &:hover {
+      background: url('../resources/icons/upload-hover.png');
+    }
+  }
+}
