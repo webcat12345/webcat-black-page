@@ -1,3 +1,6 @@
+button {
+  outline: none;
+}
 .btn-story-that-big-light {
   -webkit-box-shadow: 0 2px 0 #dad9d9;
   -moz-box-shadow: 0 2px 0 #dad9d9;
@@ -20,7 +23,6 @@
   border: 1px solid #fafafa;
   font-size: 12px;
   cursor: pointer;
-  outline: none;
   & span {
     font-size: 26px;
     position: relative;
@@ -49,9 +51,9 @@
 }
 .nav-my-contacts {
   span {
-    background: url('../resources/icons/contacts_storythat.png');
+    background: url(../resources/icons/contacts_storythat.png);
     &:hover {
-      background: url('../resources/icons/contacts_storythat_hover.png');
+      background: url(../resources/icons/contacts_storythat_hover.png);
     }
   }
 }

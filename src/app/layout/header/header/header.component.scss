@@ -45,6 +45,47 @@ nav.navbar {
           margin-top: 3px;
         }
       }
+      .notification-toggler {
+        vertical-align: middle;
+        position: relative;
+        height: 60px;
+        line-height: 60px;
+        width: 45px;
+        display: inline-block;
+        .navbar-notifications {
+          font-size: 28px;
+          line-height: 60px;
+          padding: 0 10px 0;
+          height: 60px;
+          color: #2592DE;
+          margin-right: 20px;
+          position: relative;
+          background-color: transparent;
+          box-shadow: none;
+          border: none;
+          &:hover {
+            background-color: transparent;
+            box-shadow: none;
+            border: none;
+          }
+          .count {
+            width: 20px;
+            height: 20px;
+            font-size: 12px;
+            font-weight: bold;
+            color: #2592DE;
+            display: block;
+            background: #fff;
+            padding: 3px;
+            border-radius: 10px;
+            line-height: 14px;
+            text-align: center;
+            position: absolute;
+            top: 12px;
+            right: 6px;
+          }
+        }
+      }
     }
   }
 }
