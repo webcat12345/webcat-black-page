@@ -22,7 +22,8 @@
         "assets/scss/style.scss",
         "../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap.scss",
         "../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap-compass.scss",
-        "../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap-sprockets.scss"
+        "../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap-sprockets.scss",
+        "../node_modules/font-awesome/scss/font-awesome.scss"
       ],
       "scripts": [],
       "environmentSource": "environments/environment.ts",
