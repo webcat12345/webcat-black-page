@@ -1,8 +1,8 @@
-<div class="notification-toggler" [class.open]="isOpen">
-  <button type="button" class="dropdown-toggle navbar-notifications" (click)="isOpen=!isOpen">
+<div class="notification-toggler" dropdown>
+  <button type="button" class="dropdown-toggle navbar-notifications" dropdownToggle>
     <span class="bell-icon"></span><span class="count">3</span>
   </button>
-  <div class="dropdown-menu notifications-wrap">
+  <div *dropdownMenu class="dropdown-menu notifications-wrap">
     <div class="arrow-up"></div>
     <div class="notification-relative">
       <div class="notification-container">
@@ -12,8 +12,6 @@
             <a href="#!/main/other_users/102?username=Era"><span class="name">Era</span></a>
             <span class="action">added a note to your story</span>
           </div>
-
-          <!-- ngIf: notification.contentType=='story' -->
           <div class="top-clock ng-binding" pull-right=""><i class="clock-not-icon"></i>56 days ago</div>
         </div>
       </div>

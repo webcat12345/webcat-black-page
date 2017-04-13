@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NotificationTogglerComponent implements OnInit {
 
-  isOpen = true;
+  isOpen = false;
 
   constructor() { }
 
