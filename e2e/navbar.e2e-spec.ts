@@ -19,7 +19,7 @@ describe('Header', () => {
     page.getMyContactButton().click();
   });
 
-  it('should display My contact button, if success click it', () => {
+  it('should display Upload Gallery button, if success click it', () => {
     page.navigateToRoot();
     expect<any>(page.getUploadGalleryButton().isPresent()).toEqual(true);
     page.getUploadGalleryButton().click();
