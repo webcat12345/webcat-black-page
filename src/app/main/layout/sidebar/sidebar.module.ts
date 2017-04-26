@@ -1,5 +1,4 @@
 import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 
@@ -10,7 +9,6 @@ import { SidebarDatepickerComponent } from './sidebar-datepicker/sidebar-datepic
 
 @NgModule({
   imports: [
-    BrowserModule,
     CommonModule,
     FormsModule,
     DatepickerModule.forRoot()

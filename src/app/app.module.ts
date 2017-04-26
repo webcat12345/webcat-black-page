@@ -3,8 +3,8 @@ import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
-import { HeaderModule } from './layout/header/header.module';
-import { SidebarModule } from './layout/sidebar/sidebar.module';
+import { AppRoutingModule } from './app.routing';
+import { MainModule } from './main/main.module';
 
 import { AppComponent } from './app.component';
 
@@ -16,11 +16,11 @@ import { AppComponent } from './app.component';
     BrowserModule,
     FormsModule,
     HttpModule,
-    HeaderModule,
-    SidebarModule
+    AppRoutingModule,
+    MainModule
   ],
-  providers: [],
   bootstrap: [AppComponent],
+  providers: [],
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class AppModule { }
